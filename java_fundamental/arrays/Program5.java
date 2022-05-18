@@ -7,7 +7,7 @@ Write a program to find the largest 2 numbers and the smallest 2 numbers in the 
 */
 public class Program5 {
     public static void main(String[] args){
-        int[] array = new int[]{1,8,3,7,4,6,0,4};
+        int[] array = new int[]{0,2,8,3,7,4,6,0,4};
         Arrays.sort(array);
         System.out.println("Maximum 2 Values "+array[array.length-1]+" "+array[array.length-2]);
         System.out.println("Minimum 2 Values "+array[0]+" "+array[1]);
